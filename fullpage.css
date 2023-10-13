@@ -54,12 +54,24 @@ background-color: aliceblue;
     background-color: aliceblue;
 }
 
-.section {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+#fullpage {
+    position: relative;
 }
+
+#gradient-container {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.fp-watermark {
+    display: none;
+    }
 
 @keyframes gradient {
 	0% {
@@ -93,13 +105,42 @@ background-color: aliceblue;
     text-align:left;
 }
 .paragraph2{
-    position:absolute;left:450px;top:330px;
+    position:absolute;left:450px;top:45%;
     text-align:left;
 }
 
 .paragraph3{
     position:absolute;left:450px;top:500px;
     text-align:left;
+}
+
+.paragraph4{
+    font-family: Palanquin, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align:right;
+    position:absolute;
+    top:15%;
+    left:32%;
+}
+.paragraph5{
+    font-family: Palanquin, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position:absolute;left:20%;top:10%;
+    text-align:right;
+    
+}
+
+.paragraph6{
+    font-family: Palanquin, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position:absolute;left:20%;top:10%;
+    text-align:right;
+}
+
+.learn-more{
+    position:absolute;left:-20px;top:50%;
+    text-align:left;
+    rotate: -90deg;
+    font-family: fantasy;
+    font-size: 36px;
+    color: #fff;
 }
 
 
@@ -114,6 +155,7 @@ background-color: aliceblue;
     rotate: -90deg;
     font-family: fantasy;
     font-size: 60px;
+    
 }
 
 .projects-text{
@@ -163,7 +205,32 @@ background-color: aliceblue;
         position:absolute;left:249px;bottom:50px;
     }
 
+    .img4{
+        width: 155px;
+        height: 155px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin-bottom: 10px;
+        position:absolute;left:75%;bottom:65%;
+    }
 
+    .img5{
+        width: 155px;
+        height: 155px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin-bottom: 10px;
+        position:absolute;left:75%;bottom:38%;
+    }
+
+    .img6{
+        width: 155px;
+        height: 155px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin-bottom: 10px;
+        position:absolute;left:75%;bottom:10%;
+    }
 
     /*
 
@@ -198,6 +265,9 @@ background-color: aliceblue;
 
         .paragraph2{
             top:42%;
+        }
+        .img4{
+            left:50%;
         }
     }
     
