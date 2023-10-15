@@ -25,7 +25,11 @@
     font-family: Palanquin, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     
 }
+.section:nth-child(3n){
+    font-family: Palanquin, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
 
+}
 
 .strong{
     color: rgb(252, 252, 252);
@@ -437,8 +441,55 @@ background-color: aliceblue;
     
     /* Styles for large screens (desktop) */
     @media (min-width: 1025px) {
-        body {
-            font-size: 18px;
-            /* Adjust other styles for desktop layout */
+        .experience-text{
+            top:40%;
         }
+        .projects-text{
+            
+        }
+        .img2{
+            top:44%;
+            left:13%;
+        }
+        .paragraph3{
+            top:78%;
+        }
+
+        .img4{
+            top:10%;
+            left:80%;
+        }
+        .img5{
+            top:40%;
+            left:80%;
+        }
+        .img6{
+            top:70%;
+            left:80%;
+        }
+        .paragraph4{
+            top:14%;
+            left:42%;
+            font-size:20px;
+        }
+        .paragraph5{
+            top:42%;
+            left:38%;
+            font-size:20px;
+        }
+
+        .paragraph6{
+            top:70%;
+            left:42%;
+            font-size:20px;
+        }
+        .projects-text{
+            top:40%;
+
+        }
+
+        .paragraph7{
+            left:25%;
+        }
+        
     }
