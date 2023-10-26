@@ -467,7 +467,7 @@ background-color: aliceblue;
         }
         .paragraph4{
             top:14%;
-            left:42%;
+            left:28%;
             font-size:20px;
         }
         .paragraph5{
@@ -488,6 +488,14 @@ background-color: aliceblue;
 
         .paragraph7{
             left:25%;
+        }
+        .learn-more2{
+            position:absolute;right:-3%;top:46.5%;
+            text-align:left;
+            rotate:90deg;
+            font-family: fantasy;
+            font-size: 36px;
+            color: #000;
         }
         
     } 
